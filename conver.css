@@ -48,4 +48,12 @@ select {
     border-radius: 4px;
     box-sizing: border-box;
 }
- 
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    padding: 20px;
+    background: url(fundo2.png);
+    background-size: cover;
+}
