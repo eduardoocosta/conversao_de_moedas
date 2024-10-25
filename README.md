@@ -27,11 +27,11 @@ Este projeto foi desenvolvido na aula de PWI (Programação Web 1), ministrada p
 
 ✔️ Resultado do valor inserido;
 
-# Recursos JS utilizados:🛠️
+# Recurso JS novo utilizado:🛠️
 >* ``exchangeRates``
 >essas função escolhe o objeto cujo
->* ``await``
-> faz a execução de uma função async pausar, para esperar pelo retorno da Promise , e resume a execução da função async quando o valor da Promise é resolvido.
+
+
 
 ## Tecnlogias utilizadas 🔧
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
