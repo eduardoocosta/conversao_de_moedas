@@ -27,9 +27,6 @@ Este projeto foi desenvolvido na aula de PWI (Programação Web 1), ministrada p
 
 ✔️ Resultado do valor inserido;
 
-# Recurso JS novo utilizado:🛠️
->* ``exchangeRates``
->essas função escolhe o objeto cujo nome selecionado
 
 
 
