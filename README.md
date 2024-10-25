@@ -3,7 +3,7 @@
 Conversor de moedas 
 
 
-![alt text](image-1.png)
+![alt text](image.png)
 
 ># License
 >![](https://img.shields.io/badge/license-%20Escola%20Marista%20Ir.%20Ac%C3%A1cio-black) ![](https://img.shields.io/badge/version-0.3-white) 
@@ -11,7 +11,7 @@ Conversor de moedas
 ## Descrição do Projeto
 Este projeto foi desenvolvido na aula de PWI (Programação Web 1), ministrada pelo professor [Leonardo Rocha](https://github.com/leonardossrocha). O objetivo do projeto é aprender a converter valores de moedas, ainda de forma simples, porém logo esse projeto terá uma continuação mais aprimorada.
 
-![tela do sistema](imagem.png)
+![tela do sistema](projeto.png)
 
 ## Funcionalidades do website
 
@@ -29,7 +29,7 @@ Este projeto foi desenvolvido na aula de PWI (Programação Web 1), ministrada p
 
 # Recursos JS utilizados:🛠️
 >* ``exchangeRates``
->essas função escolhe o objeto cujo nome selecionado
+>essas função escolhe o objeto cujo
 >* ``await``
 > faz a execução de uma função async pausar, para esperar pelo retorno da Promise , e resume a execução da função async quando o valor da Promise é resolvido.
 
