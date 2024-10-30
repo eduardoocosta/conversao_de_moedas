@@ -28,7 +28,7 @@ Este projeto foi desenvolvido na aula de PWI (Programação Web 1), ministrada p
 ✔️ Resultado do valor inserido;
 
 
-# Funcionalidades do Java-Script 🔧
+# Funcionalidades JS utilizadas🔧
 1- Recuperação de valores de entrada: Recupera os valores inseridos pelo usuário nos campos do formulário
 
 2- Definição de taxas de câmbio: Define um objeto de taxas de câmbio fixas exchangeRates que contém as taxas de conversão entre diferentes moedas (USD, BRL e EUR).
