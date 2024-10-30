@@ -40,7 +40,7 @@ Este projeto foi desenvolvido na aula de PWI (Programação Web 1), ministrada p
 
 4- Exibição do resultado: Atualiza o conteúdo de texto do elemento com o id "result" para exibir o valor convertido, arredondado para duas casas decimais usando toFixed(2), juntamente com o símbolo da moeda convertida.
  
-# Convertendo moedas de acordo com a taxa de câmbio
+# Inserir valor de taxa de câmbio
 ~~~ Javascript
 document.getElementById ('currency-converter').addEventListener('submit', function(event){
     event.preventDefault();
@@ -61,6 +61,16 @@ const exchangeRates = {
     };
 ~~~
 
+~~~ Javascript
+// Conversão simples de moeda
+    let valorConvertido;
+    if(daMoeda === paraMoeda){
+        valorConvertido = valor;
+    }else{
+        valorConvertido = valor * exchangeRates[daMoeda][paraMoeda];
+    }
+
+~~~
 
 
 
