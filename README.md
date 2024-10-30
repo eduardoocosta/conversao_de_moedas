@@ -28,6 +28,16 @@ Este projeto foi desenvolvido na aula de PWI (Programação Web 1), ministrada p
 ✔️ Resultado do valor inserido;
 
 
+~~~ Javascript
+document.getElementById ('currency-converter').addEventListener('submit', function(event){
+    event.preventDefault();
+
+    // Obter valores de entrada informados pelo usuário
+    const valor = parseFloat(document.getElementById('amount').value);
+    const daMoeda = document.getElementById('daMoeda').value;
+    const paraMoeda = document.getElementById('paraMoeda').value;
+~~~
+
 
 
 ## Tecnlogias utilizadas 🔧
