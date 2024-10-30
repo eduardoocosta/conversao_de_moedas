@@ -28,6 +28,16 @@ Este projeto foi desenvolvido na aula de PWI (Programação Web 1), ministrada p
 ✔️ Resultado do valor inserido;
 
 
+# Funcionalidades do Java-Script 🔧
+1- Recuperação de valores de entrada: Recupera os valores inseridos pelo usuário nos campos do formulário
+
+2- Definição de taxas de câmbio: Define um objeto de taxas de câmbio fixas exchangeRates que contém as taxas de conversão entre diferentes moedas (USD, BRL e EUR).
+
+3- Conversão de moeda: converte a moeda, deMoeda, paraMoeda.
+
+4- Exibição do resultado: Atualiza o conteúdo de texto do elemento com o id "result" para exibir o valor convertido, arredondado para duas casas decimais usando toFixed(2), juntamente com o símbolo da moeda convertida.
+ 
+
 ~~~ Javascript
 document.getElementById ('currency-converter').addEventListener('submit', function(event){
     event.preventDefault();
@@ -37,6 +47,8 @@ document.getElementById ('currency-converter').addEventListener('submit', functi
     const daMoeda = document.getElementById('daMoeda').value;
     const paraMoeda = document.getElementById('paraMoeda').value;
 ~~~
+
+
 
 
 
