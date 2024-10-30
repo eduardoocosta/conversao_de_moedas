@@ -28,6 +28,8 @@ Este projeto foi desenvolvido na aula de PWI (Programação Web 1), ministrada p
 
 ✔️ Resultado do valor inserido;
 
+✔️ Definir Taxas de câmbio;
+
 
 # Funcionalidades JS utilizadas🔧
 1- Recuperação de valores de entrada: Recupera os valores inseridos pelo usuário nos campos do formulário
@@ -38,7 +40,7 @@ Este projeto foi desenvolvido na aula de PWI (Programação Web 1), ministrada p
 
 4- Exibição do resultado: Atualiza o conteúdo de texto do elemento com o id "result" para exibir o valor convertido, arredondado para duas casas decimais usando toFixed(2), juntamente com o símbolo da moeda convertida.
  
-
+# Convertendo moedas de acordo com a taxa de câmbio
 ~~~ Javascript
 document.getElementById ('currency-converter').addEventListener('submit', function(event){
     event.preventDefault();
@@ -49,6 +51,15 @@ document.getElementById ('currency-converter').addEventListener('submit', functi
     const paraMoeda = document.getElementById('paraMoeda').value;
 ~~~
 
+# Definição de taxas de câmbio
+~~~ Javascript
+const exchangeRates = {
+        USD: { BRL: 5.70, EUR: 0.93 },
+        BRL: { USD: 0.18, EUR: 0.16 },
+        EUR: { USD: 1.08, EUR: 6.16 }
+
+    };
+~~~
 
 
 
