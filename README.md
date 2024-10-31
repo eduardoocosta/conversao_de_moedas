@@ -1,4 +1,4 @@
-# Conversor de moedas ![imagem](banknote.png)
+# 𝑪𝒐𝒏𝒗𝒆𝒓𝒔𝒐𝒓 𝒅𝒆 𝒎𝒐𝒆𝒅𝒂𝒔![imagem](banknote.png)
 
 
 
@@ -40,6 +40,11 @@ Este projeto foi desenvolvido na aula de PWI (Programação Web 1), ministrada p
 
 4- Exibição do resultado: Atualiza o conteúdo de texto do elemento com o id "result" para exibir o valor convertido, arredondado para duas casas decimais usando toFixed(2), juntamente com o símbolo da moeda convertida.
  
+## COMO USAR
+1. Selecione a moeda de origem e destino BRL, EUR e USD.
+2. Insira o valor que deseja converter e tera o valor convertido.
+3. Use o botão "Converter" para limpar o formulário
+
 # Inserir valor de taxa de câmbio
 ~~~ Javascript
 document.getElementById ('currency-converter').addEventListener('submit', function(event){
