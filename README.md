@@ -39,7 +39,7 @@ Este projeto foi desenvolvido na aula de PWI (Programação Web 1), ministrada p
 >2. Insira o valor que deseja converter e tera o valor convertido.
 >3. Use o botão "Converter" para limpar o formulário
 
-# Inserir valor de taxa de câmbio
+# Inserir valor de moeda
 ~~~ Javascript
 document.getElementById ('currency-converter').addEventListener('submit', function(event){
     event.preventDefault();
@@ -60,6 +60,7 @@ const exchangeRates = {
     };
 ~~~
 
+# Conversão de moeda
 ~~~ Javascript
 // Conversão simples de moeda
     let valorConvertido;
